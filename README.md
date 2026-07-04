@@ -110,13 +110,13 @@ Me interesan especialmente el desarrollo de software, la logica de programacion,
 ## Actividad
 
 <div align="center">
-
-[![Estadísticas de GitHub](https://github-readme-stats.vercel.app/api?username=AndresSanchez12323&show_icons=true&theme=tokyonight&hide_border=true&bg_color=07111f)](https://github.com/AndresSanchez12323)
-
-<br><br>
-
-[![Gráfica de Actividad](https://github-readme-activity-graph.vercel.app/graph?username=AndresSanchez12323&theme=tokyonight&hide_border=true&area=true&bg_color=07111f)](https://github.com/AndresSanchez12323)
-
+  <a href="https://github.com/AndresSanchez12323">
+    <img src="https://github-readme-stats.vercel.app/api?username=AndresSanchez12323&amp;show_icons=true&amp;theme=tokyonight&amp;hide_border=true&amp;bg_color=07111f" alt="Estadísticas de GitHub" />
+  </a>
+  <br><br>
+  <a href="https://github.com/AndresSanchez12323">
+    <img src="https://github-readme-activity-graph.vercel.app/graph?username=AndresSanchez12323&amp;theme=tokyonight&amp;hide_border=true&amp;area=true&amp;bg_color=07111f" alt="Gráfica de Actividad" />
+  </a>
 </div>
 
 ---
