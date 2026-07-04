@@ -1,0 +1,135 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1100" height="360" viewBox="0 0 1100 360" role="img" aria-labelledby="title desc">
+  <title id="title">Ki Clash arcade animation</title>
+  <desc id="desc">Original pixel-art inspired arcade fighting animation with two energy fighters.</desc>
+  <defs>
+    <linearGradient id="sky" x1="0" x2="1" y1="0" y2="1">
+      <stop offset="0%" stop-color="#101827"/>
+      <stop offset="48%" stop-color="#172554"/>
+      <stop offset="100%" stop-color="#312e81"/>
+    </linearGradient>
+    <linearGradient id="floor" x1="0" x2="1">
+      <stop offset="0%" stop-color="#0f172a"/>
+      <stop offset="50%" stop-color="#1e293b"/>
+      <stop offset="100%" stop-color="#0f172a"/>
+    </linearGradient>
+    <filter id="cyanGlow">
+      <feGaussianBlur stdDeviation="5" result="blur"/>
+      <feMerge><feMergeNode in="blur"/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+    <filter id="goldGlow">
+      <feGaussianBlur stdDeviation="5" result="blur"/>
+      <feMerge><feMergeNode in="blur"/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+    <pattern id="scan" width="8" height="8" patternUnits="userSpaceOnUse">
+      <rect width="8" height="2" fill="#ffffff" opacity=".05"/>
+    </pattern>
+  </defs>
+
+  <rect x="8" y="8" width="1084" height="344" rx="22" fill="#07111f" stroke="#24364f"/>
+  <rect x="28" y="28" width="1044" height="304" rx="16" fill="url(#sky)"/>
+  <rect x="28" y="28" width="1044" height="304" rx="16" fill="url(#scan)"/>
+
+  <text x="48" y="58" fill="#67e8f9" font-family="Consolas, monospace" font-size="19" font-weight="700">KI CLASH</text>
+  <text x="910" y="58" fill="#c4d7f2" font-family="Consolas, monospace" font-size="13">round 01 / build arena</text>
+
+  <g font-family="Consolas, monospace" font-size="12" font-weight="700">
+    <text x="54" y="90" fill="#e5eefb">DEV FORM</text>
+    <rect x="54" y="102" width="330" height="18" rx="3" fill="#111827" stroke="#334155"/>
+    <rect x="58" y="106" width="292" height="10" rx="2" fill="#facc15">
+      <animate attributeName="width" values="292;250;292" dur="2.4s" repeatCount="indefinite"/>
+    </rect>
+    <text x="930" y="90" fill="#e5eefb">BUG LORD</text>
+    <rect x="716" y="102" width="330" height="18" rx="3" fill="#111827" stroke="#334155"/>
+    <rect x="750" y="106" width="292" height="10" rx="2" fill="#67e8f9">
+      <animate attributeName="x" values="750;790;750" dur="2.4s" repeatCount="indefinite"/>
+      <animate attributeName="width" values="292;252;292" dur="2.4s" repeatCount="indefinite"/>
+    </rect>
+  </g>
+
+  <rect x="28" y="246" width="1044" height="86" fill="url(#floor)"/>
+  <path d="M48 292H1052" stroke="#67e8f9" stroke-width="2" opacity=".25" stroke-dasharray="12 18">
+    <animate attributeName="stroke-dashoffset" values="0;-120" dur="3s" repeatCount="indefinite"/>
+  </path>
+
+  <g id="leftAura" filter="url(#goldGlow)" opacity=".8">
+    <path d="M232 218c-50-50-34-112 8-146 42 34 58 96 8 146z" fill="#facc15" opacity=".25">
+      <animate attributeName="d" values="M232 218c-50-50-34-112 8-146 42 34 58 96 8 146z;M226 220c-62-58-28-124 14-154 46 38 68 104 2 154z;M232 218c-50-50-34-112 8-146 42 34 58 96 8 146z" dur="1s" repeatCount="indefinite"/>
+    </path>
+    <path d="M212 230c-74-72-48-142 28-184 72 44 96 112 28 184z" fill="none" stroke="#facc15" stroke-width="5" opacity=".8"/>
+  </g>
+
+  <g id="rightAura" filter="url(#cyanGlow)" opacity=".8">
+    <path d="M868 218c50-50 34-112-8-146-42 34-58 96-8 146z" fill="#67e8f9" opacity=".22">
+      <animate attributeName="d" values="M868 218c50-50 34-112-8-146-42 34-58 96-8 146z;M874 220c62-58 28-124-14-154-46 38-68 104-2 154z;M868 218c50-50 34-112-8-146-42 34-58 96-8 146z" dur="1.1s" repeatCount="indefinite"/>
+    </path>
+    <path d="M888 230c74-72 48-142-28-184-72 44-96 112-28 184z" fill="none" stroke="#67e8f9" stroke-width="5" opacity=".75"/>
+  </g>
+
+  <g id="leftFighter" transform="translate(210 126)">
+    <animateTransform attributeName="transform" type="translate" values="210 126;216 124;210 126" dur=".42s" repeatCount="indefinite"/>
+    <rect x="24" y="0" width="12" height="12" fill="#fef3c7"/>
+    <rect x="12" y="12" width="36" height="12" fill="#facc15"/>
+    <rect x="0" y="24" width="60" height="12" fill="#facc15"/>
+    <rect x="12" y="36" width="36" height="12" fill="#facc15"/>
+    <rect x="24" y="48" width="12" height="12" fill="#fef3c7"/>
+    <rect x="18" y="60" width="24" height="36" fill="#2563eb"/>
+    <rect x="6" y="72" width="12" height="30" fill="#f97316"/>
+    <rect x="42" y="72" width="12" height="30" fill="#f97316"/>
+    <rect x="18" y="96" width="12" height="36" fill="#f97316"/>
+    <rect x="36" y="96" width="12" height="36" fill="#f97316"/>
+    <rect x="12" y="132" width="18" height="10" fill="#111827"/>
+    <rect x="36" y="132" width="18" height="10" fill="#111827"/>
+    <rect x="42" y="66" width="32" height="12" fill="#facc15">
+      <animate attributeName="width" values="32;44;32" dur=".42s" repeatCount="indefinite"/>
+    </rect>
+  </g>
+
+  <g id="rightFighter" transform="translate(824 126)">
+    <animateTransform attributeName="transform" type="translate" values="824 126;818 124;824 126" dur=".45s" repeatCount="indefinite"/>
+    <rect x="24" y="0" width="12" height="12" fill="#bae6fd"/>
+    <rect x="12" y="12" width="36" height="12" fill="#111827"/>
+    <rect x="0" y="24" width="60" height="12" fill="#111827"/>
+    <rect x="12" y="36" width="36" height="12" fill="#111827"/>
+    <rect x="24" y="48" width="12" height="12" fill="#bae6fd"/>
+    <rect x="18" y="60" width="24" height="36" fill="#67e8f9"/>
+    <rect x="6" y="72" width="12" height="30" fill="#334155"/>
+    <rect x="42" y="72" width="12" height="30" fill="#334155"/>
+    <rect x="18" y="96" width="12" height="36" fill="#334155"/>
+    <rect x="36" y="96" width="12" height="36" fill="#334155"/>
+    <rect x="12" y="132" width="18" height="10" fill="#020617"/>
+    <rect x="36" y="132" width="18" height="10" fill="#020617"/>
+    <rect x="-14" y="66" width="32" height="12" fill="#67e8f9">
+      <animate attributeName="x" values="-14;-26;-14" dur=".45s" repeatCount="indefinite"/>
+      <animate attributeName="width" values="32;44;32" dur=".45s" repeatCount="indefinite"/>
+    </rect>
+  </g>
+
+  <g filter="url(#goldGlow)">
+    <circle cx="338" cy="198" r="18" fill="#facc15" opacity=".9">
+      <animate attributeName="cx" values="338;512;338" dur="1.25s" repeatCount="indefinite"/>
+      <animate attributeName="r" values="18;28;18" dur="1.25s" repeatCount="indefinite"/>
+    </circle>
+  </g>
+  <g filter="url(#cyanGlow)">
+    <circle cx="762" cy="198" r="18" fill="#67e8f9" opacity=".9">
+      <animate attributeName="cx" values="762;588;762" dur="1.25s" repeatCount="indefinite"/>
+      <animate attributeName="r" values="18;28;18" dur="1.25s" repeatCount="indefinite"/>
+    </circle>
+  </g>
+  <g filter="url(#cyanGlow)">
+    <circle cx="550" cy="198" r="30" fill="#ffffff" opacity=".75">
+      <animate attributeName="r" values="16;42;16" dur="1.25s" repeatCount="indefinite"/>
+      <animate attributeName="opacity" values=".15;.85;.15" dur="1.25s" repeatCount="indefinite"/>
+    </circle>
+    <path d="M550 154l14 28 32-8-22 24 22 24-32-8-14 28-14-28-32 8 22-24-22-24 32 8z" fill="#fef08a" opacity=".9">
+      <animateTransform attributeName="transform" type="rotate" from="0 550 198" to="360 550 198" dur="1.25s" repeatCount="indefinite"/>
+      <animate attributeName="opacity" values=".15;1;.15" dur="1.25s" repeatCount="indefinite"/>
+    </path>
+  </g>
+
+  <g font-family="Consolas, monospace" font-size="13" fill="#c4d7f2">
+    <text x="54" y="322">combo: clean commits</text>
+    <text x="442" y="322">special: refactor beam</text>
+    <text x="812" y="322">finish: deploy stable</text>
+  </g>
+</svg>
