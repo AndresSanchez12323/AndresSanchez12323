@@ -33,13 +33,13 @@ status      building stronger projects one commit at a time
 profile loaded successfully.
 ```
 
-## Mini game: Ki Clash
+## Mini game: Byte Runner
 
 <div align="center">
-  <img src="assets/ki-clash.svg" alt="Ki Clash animated arcade fighting scene" width="100%">
+  <img src="assets/byte-runner.svg" alt="Byte Runner animated mini game board" width="100%">
 </div>
 
-> Arcade-style energy fight made for this profile: two original pixel fighters charging, clashing and keeping the build alive.
+> A small visual game made for this profile: the runner moves through a circuit board, collects bits and keeps the build alive.
 
 ---
 
