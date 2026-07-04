@@ -111,12 +111,7 @@ Me interesan especialmente el desarrollo de software, la logica de programacion,
 
 <div align="center">
 
-<img height="168" alt="GitHub stats" src="https://github-readme-stats.vercel.app/api?username=AndresSanchez12323&show_icons=true&theme=tokyonight&hide_border=true&title_color=67e8f9&icon_color=67e8f9&text_color=e5eefb&bg_color=07111f">
-<img height="168" alt="Top languages" src="https://github-readme-stats.vercel.app/api/top-langs/?username=AndresSanchez12323&layout=compact&theme=tokyonight&hide_border=true&title_color=67e8f9&text_color=e5eefb&bg_color=07111f">
-
-<br>
-
-<img alt="GitHub streak" src="https://streak-stats.demolab.com?user=AndresSanchez12323&theme=tokyonight&hide_border=true&background=07111F&ring=67e8f9&fire=67e8f9&currStreakLabel=67e8f9">
+<img src="assets/activity-panel.svg" alt="GitHub activity panel for Edwin Andres Sanchez Orozco" width="100%">
 
 </div>
 

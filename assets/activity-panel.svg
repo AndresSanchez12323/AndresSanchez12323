@@ -1,0 +1,83 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1100" height="330" viewBox="0 0 1100 330" role="img" aria-labelledby="title desc">
+  <title id="title">GitHub activity panel</title>
+  <desc id="desc">Static custom activity dashboard for Edwin Andres Sanchez Orozco profile.</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" x2="1" y1="0" y2="1">
+      <stop offset="0%" stop-color="#07111f"/>
+      <stop offset="100%" stop-color="#0b1729"/>
+    </linearGradient>
+    <linearGradient id="bar" x1="0" x2="1">
+      <stop offset="0%" stop-color="#67e8f9"/>
+      <stop offset="50%" stop-color="#8b5cf6"/>
+      <stop offset="100%" stop-color="#22c55e"/>
+    </linearGradient>
+    <filter id="glow">
+      <feGaussianBlur stdDeviation="4" result="blur"/>
+      <feMerge>
+        <feMergeNode in="blur"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+    <pattern id="dots" width="24" height="24" patternUnits="userSpaceOnUse">
+      <rect x="8" y="8" width="8" height="8" rx="2" fill="#142236"/>
+    </pattern>
+  </defs>
+
+  <rect x="8" y="8" width="1084" height="314" rx="24" fill="url(#bg)" stroke="#24364f"/>
+  <rect x="34" y="78" width="1032" height="112" rx="14" fill="url(#dots)" opacity=".9"/>
+
+  <text x="42" y="45" fill="#67e8f9" font-family="Consolas, monospace" font-size="18" font-weight="700">ACTIVITY DASHBOARD</text>
+  <text x="884" y="45" fill="#9fb7d4" font-family="Consolas, monospace" font-size="14">source: github profile</text>
+
+  <g transform="translate(54 214)">
+    <rect width="304" height="76" rx="16" fill="#0a1424" stroke="#24364f"/>
+    <text x="24" y="30" fill="#9fb7d4" font-family="Consolas, monospace" font-size="13">public work</text>
+    <text x="24" y="57" fill="#e5eefb" font-family="Segoe UI, Arial, sans-serif" font-size="24" font-weight="800">Projects + learning</text>
+    <circle cx="270" cy="38" r="13" fill="#67e8f9" filter="url(#glow)">
+      <animate attributeName="opacity" values=".35;1;.35" dur="2.2s" repeatCount="indefinite"/>
+    </circle>
+  </g>
+
+  <g transform="translate(398 214)">
+    <rect width="304" height="76" rx="16" fill="#0a1424" stroke="#24364f"/>
+    <text x="24" y="30" fill="#9fb7d4" font-family="Consolas, monospace" font-size="13">current focus</text>
+    <text x="24" y="57" fill="#e5eefb" font-family="Segoe UI, Arial, sans-serif" font-size="24" font-weight="800">Code quality</text>
+    <path d="M252 43l16-24h-14l6-18-24 28h15l-7 14z" fill="#8b5cf6" filter="url(#glow)">
+      <animate attributeName="opacity" values="1;.45;1" dur="1.8s" repeatCount="indefinite"/>
+    </path>
+  </g>
+
+  <g transform="translate(742 214)">
+    <rect width="304" height="76" rx="16" fill="#0a1424" stroke="#24364f"/>
+    <text x="24" y="30" fill="#9fb7d4" font-family="Consolas, monospace" font-size="13">build path</text>
+    <text x="24" y="57" fill="#e5eefb" font-family="Segoe UI, Arial, sans-serif" font-size="24" font-weight="800">Deploy + docs</text>
+    <rect x="252" y="26" width="28" height="28" rx="7" fill="#22c55e" filter="url(#glow)">
+      <animate attributeName="rx" values="7;14;7" dur="2.4s" repeatCount="indefinite"/>
+    </rect>
+  </g>
+
+  <g filter="url(#glow)">
+    <rect x="74" y="112" width="16" height="16" rx="4" fill="#22c55e"/>
+    <rect x="122" y="136" width="16" height="16" rx="4" fill="#12345a"/>
+    <rect x="170" y="112" width="16" height="16" rx="4" fill="#67e8f9"/>
+    <rect x="242" y="136" width="16" height="16" rx="4" fill="#22c55e"/>
+    <rect x="338" y="112" width="16" height="16" rx="4" fill="#8b5cf6"/>
+    <rect x="410" y="136" width="16" height="16" rx="4" fill="#67e8f9"/>
+    <rect x="506" y="112" width="16" height="16" rx="4" fill="#22c55e"/>
+    <rect x="554" y="136" width="16" height="16" rx="4" fill="#8b5cf6"/>
+    <rect x="626" y="112" width="16" height="16" rx="4" fill="#67e8f9"/>
+    <rect x="746" y="136" width="16" height="16" rx="4" fill="#22c55e"/>
+    <rect x="818" y="112" width="16" height="16" rx="4" fill="#12345a"/>
+    <rect x="890" y="136" width="16" height="16" rx="4" fill="#67e8f9"/>
+    <rect x="986" y="112" width="16" height="16" rx="4" fill="#22c55e"/>
+  </g>
+
+  <path d="M74 166H186L242 118H354L410 166H570L626 118H762L818 166H1002" fill="none" stroke="#67e8f9" stroke-width="3" stroke-linecap="round" opacity=".85" filter="url(#glow)" stroke-dasharray="16 14">
+    <animate attributeName="stroke-dashoffset" values="0;-180" dur="6s" repeatCount="indefinite"/>
+  </path>
+
+  <rect x="42" y="300" width="1016" height="5" rx="3" fill="#102033"/>
+  <rect x="42" y="300" width="420" height="5" rx="3" fill="url(#bar)" filter="url(#glow)">
+    <animate attributeName="width" values="180;520;420;760;180" dur="7s" repeatCount="indefinite"/>
+  </rect>
+</svg>
