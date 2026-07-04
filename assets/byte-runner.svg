@@ -1,0 +1,62 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1100" height="280" viewBox="0 0 1100 280" role="img" aria-labelledby="title desc">
+  <title id="title">Byte Runner mini game</title>
+  <desc id="desc">Animated arcade style circuit board with a runner collecting bits.</desc>
+  <defs>
+    <filter id="glow">
+      <feGaussianBlur stdDeviation="3" result="blur"/>
+      <feMerge>
+        <feMergeNode in="blur"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+    <linearGradient id="panel" x1="0" x2="1" y1="0" y2="1">
+      <stop offset="0%" stop-color="#07111f"/>
+      <stop offset="100%" stop-color="#0b1729"/>
+    </linearGradient>
+    <pattern id="cells" width="28" height="28" patternUnits="userSpaceOnUse">
+      <rect x="6" y="6" width="14" height="14" rx="3" fill="#132236"/>
+    </pattern>
+  </defs>
+  <rect x="8" y="8" width="1084" height="264" rx="22" fill="url(#panel)" stroke="#24364f"/>
+  <rect x="30" y="58" width="1040" height="166" rx="14" fill="url(#cells)" opacity=".95"/>
+  <text x="42" y="36" fill="#67e8f9" font-family="Consolas, monospace" font-size="18" font-weight="700">BYTE RUNNER</text>
+  <text x="932" y="36" fill="#9fb7d4" font-family="Consolas, monospace" font-size="14">score: 0101</text>
+  <path id="track" d="M70 196H190V112H304V168H430V84H560V140H684V96H824V182H1012" fill="none" stroke="#24364f" stroke-width="10" stroke-linecap="round"/>
+  <path d="M70 196H190V112H304V168H430V84H560V140H684V96H824V182H1012" fill="none" stroke="#67e8f9" stroke-width="3" stroke-linecap="round" opacity=".8" filter="url(#glow)" stroke-dasharray="18 18">
+    <animate attributeName="stroke-dashoffset" values="0;-180" dur="5s" repeatCount="indefinite"/>
+  </path>
+  <g fill="#22c55e" filter="url(#glow)">
+    <rect x="184" y="106" width="13" height="13" rx="3">
+      <animate attributeName="opacity" values="1;.25;1" dur="2.4s" repeatCount="indefinite"/>
+    </rect>
+    <rect x="424" y="78" width="13" height="13" rx="3">
+      <animate attributeName="opacity" values=".25;1;.25" dur="2.1s" repeatCount="indefinite"/>
+    </rect>
+    <rect x="678" y="90" width="13" height="13" rx="3">
+      <animate attributeName="opacity" values="1;.2;1" dur="2.7s" repeatCount="indefinite"/>
+    </rect>
+    <rect x="1006" y="176" width="13" height="13" rx="3">
+      <animate attributeName="opacity" values=".4;1;.4" dur="1.9s" repeatCount="indefinite"/>
+    </rect>
+  </g>
+  <g filter="url(#glow)">
+    <circle r="13" fill="#67e8f9">
+      <animateMotion dur="8s" repeatCount="indefinite" rotate="auto">
+        <mpath href="#track"/>
+      </animateMotion>
+    </circle>
+    <circle r="5" fill="#07111f">
+      <animateMotion dur="8s" repeatCount="indefinite" rotate="auto">
+        <mpath href="#track"/>
+      </animateMotion>
+    </circle>
+  </g>
+  <g font-family="Consolas, monospace" font-size="13" fill="#9fb7d4">
+    <text x="54" y="246">mission: collect clean commits</text>
+    <text x="402" y="246">bugs avoided: 04</text>
+    <text x="710" y="246">deploy status: stable</text>
+  </g>
+  <rect x="42" y="254" width="190" height="4" rx="2" fill="#67e8f9" opacity=".7">
+    <animate attributeName="width" values="120;260;190;320;120" dur="8s" repeatCount="indefinite"/>
+  </rect>
+</svg>

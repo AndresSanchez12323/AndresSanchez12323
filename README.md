@@ -1,70 +1,83 @@
 <div align="center">
 
-# Edwin Andrés Sánchez Orozco
+<img src="assets/edwin-header.svg" alt="Edwin Andres Sanchez Orozco - Software Developer in training" width="100%">
 
-### Software Developer in training · Computer Engineering Student
-
-Construyo soluciones limpias, prácticas y mantenibles mientras fortalezco mis bases en desarrollo de software, sistemas, bases de datos y automatización.
+<br>
 
 <a href="https://portafolio-personal-edwin-sanchez.vercel.app">
-  <img alt="Portfolio" src="https://img.shields.io/badge/Portfolio-0f172a?style=for-the-badge&logo=vercel&logoColor=67e8f9">
+  <img alt="Portfolio" src="https://img.shields.io/badge/PORTFOLIO-07111f?style=for-the-badge&logo=vercel&logoColor=67e8f9&labelColor=07111f">
 </a>
 <a href="https://www.linkedin.com/in/edwin-andr%C3%A9s-s%C3%A1nchez-orozco-aa4b40411">
-  <img alt="LinkedIn" src="https://img.shields.io/badge/LinkedIn-0f172a?style=for-the-badge&logo=linkedin&logoColor=67e8f9">
+  <img alt="LinkedIn" src="https://img.shields.io/badge/LINKEDIN-07111f?style=for-the-badge&logo=linkedin&logoColor=67e8f9&labelColor=07111f">
 </a>
 <a href="https://github.com/AndresSanchez12323">
-  <img alt="GitHub" src="https://img.shields.io/badge/GitHub-0f172a?style=for-the-badge&logo=github&logoColor=67e8f9">
+  <img alt="GitHub" src="https://img.shields.io/badge/GITHUB-07111f?style=for-the-badge&logo=github&logoColor=67e8f9&labelColor=07111f">
 </a>
 
 </div>
 
 ---
 
+## `perfil.dev`
+
 ```txt
-┌─ perfil.dev ──────────────────────────────────────────────┐
-│ nombre      Edwin Andrés Sánchez Orozco                    │
-│ rol         Desarrollador de Software en formación          │
-│ enfoque     código limpio · lógica · productos útiles       │
-│ base        Colombia                                       │
-│ estado      aprendiendo, construyendo y mejorando           │
-└─────────────────────────────────────────────────────────────┘
+booting profile...
+
+user        Edwin Andres Sanchez Orozco
+role        Software Developer in training
+career      Computer Engineering
+focus       clean code, useful products, practical problem solving
+stack       web, APIs, databases, scripting, Linux, Docker
+status      building stronger projects one commit at a time
+
+profile loaded successfully.
 ```
 
-## Sobre mi
+## Mini game: Byte Runner
 
-Soy estudiante de octavo semestre de Ingeniería en Informática. Me interesa crear software que sea entendible, funcional y fácil de mantener. Disfruto resolver problemas, aprender nuevas tecnologías y convertir ideas en proyectos concretos.
+<div align="center">
+  <img src="assets/byte-runner.svg" alt="Byte Runner animated mini game board" width="100%">
+</div>
 
-Actualmente estoy fortaleciendo mis conocimientos en desarrollo web, APIs, bases de datos, scripting, Linux, Docker y fundamentos de bajo nivel.
+> A small visual game made for this profile: the runner moves through a circuit board, collects bits and keeps the build alive.
 
 ---
 
-## Stack principal
+## Sobre mi
+
+Soy estudiante de octavo semestre de Ingenieria en Informatica. Me gusta construir soluciones que se entiendan, funcionen bien y puedan mantenerse con el tiempo.
+
+Me interesan especialmente el desarrollo de software, la logica de programacion, las APIs, las bases de datos, la automatizacion y los fundamentos de sistemas. Estoy en una etapa de crecimiento constante: aprender, construir, corregir y volver a mejorar.
+
+---
+
+## Stack de trabajo
 
 <div align="center">
 
 ### Lenguajes
 
-![JavaScript](https://img.shields.io/badge/JavaScript-111827?style=for-the-badge&logo=javascript)
-![TypeScript](https://img.shields.io/badge/TypeScript-111827?style=for-the-badge&logo=typescript)
-![Python](https://img.shields.io/badge/Python-111827?style=for-the-badge&logo=python)
-![Java](https://img.shields.io/badge/Java-111827?style=for-the-badge&logo=openjdk)
-![PHP](https://img.shields.io/badge/PHP-111827?style=for-the-badge&logo=php)
-![C](https://img.shields.io/badge/C-111827?style=for-the-badge&logo=c)
-![C++](https://img.shields.io/badge/C++-111827?style=for-the-badge&logo=cplusplus)
+![JavaScript](https://img.shields.io/badge/JavaScript-101827?style=for-the-badge&logo=javascript&logoColor=67e8f9)
+![TypeScript](https://img.shields.io/badge/TypeScript-101827?style=for-the-badge&logo=typescript&logoColor=67e8f9)
+![Python](https://img.shields.io/badge/Python-101827?style=for-the-badge&logo=python&logoColor=67e8f9)
+![Java](https://img.shields.io/badge/Java-101827?style=for-the-badge&logo=openjdk&logoColor=67e8f9)
+![PHP](https://img.shields.io/badge/PHP-101827?style=for-the-badge&logo=php&logoColor=67e8f9)
+![C](https://img.shields.io/badge/C-101827?style=for-the-badge&logo=c&logoColor=67e8f9)
+![C++](https://img.shields.io/badge/C++-101827?style=for-the-badge&logo=cplusplus&logoColor=67e8f9)
 
 ### Web, datos y herramientas
 
-![HTML5](https://img.shields.io/badge/HTML5-111827?style=for-the-badge&logo=html5)
-![CSS3](https://img.shields.io/badge/CSS3-111827?style=for-the-badge&logo=css)
-![React](https://img.shields.io/badge/React-111827?style=for-the-badge&logo=react)
-![Node.js](https://img.shields.io/badge/Node.js-111827?style=for-the-badge&logo=nodedotjs)
-![PostgreSQL](https://img.shields.io/badge/PostgreSQL-111827?style=for-the-badge&logo=postgresql)
-![MongoDB](https://img.shields.io/badge/MongoDB-111827?style=for-the-badge&logo=mongodb)
-![Neo4j](https://img.shields.io/badge/Neo4j-111827?style=for-the-badge&logo=neo4j)
-![Docker](https://img.shields.io/badge/Docker-111827?style=for-the-badge&logo=docker)
-![Linux](https://img.shields.io/badge/Linux-111827?style=for-the-badge&logo=linux)
-![PowerShell](https://img.shields.io/badge/PowerShell-111827?style=for-the-badge&logo=powershell)
-![Git](https://img.shields.io/badge/Git-111827?style=for-the-badge&logo=git)
+![HTML5](https://img.shields.io/badge/HTML5-101827?style=for-the-badge&logo=html5&logoColor=67e8f9)
+![CSS3](https://img.shields.io/badge/CSS3-101827?style=for-the-badge&logo=css&logoColor=67e8f9)
+![React](https://img.shields.io/badge/React-101827?style=for-the-badge&logo=react&logoColor=67e8f9)
+![Node.js](https://img.shields.io/badge/Node.js-101827?style=for-the-badge&logo=nodedotjs&logoColor=67e8f9)
+![PostgreSQL](https://img.shields.io/badge/PostgreSQL-101827?style=for-the-badge&logo=postgresql&logoColor=67e8f9)
+![MongoDB](https://img.shields.io/badge/MongoDB-101827?style=for-the-badge&logo=mongodb&logoColor=67e8f9)
+![Neo4j](https://img.shields.io/badge/Neo4j-101827?style=for-the-badge&logo=neo4j&logoColor=67e8f9)
+![Docker](https://img.shields.io/badge/Docker-101827?style=for-the-badge&logo=docker&logoColor=67e8f9)
+![Linux](https://img.shields.io/badge/Linux-101827?style=for-the-badge&logo=linux&logoColor=67e8f9)
+![PowerShell](https://img.shields.io/badge/PowerShell-101827?style=for-the-badge&logo=powershell&logoColor=67e8f9)
+![Git](https://img.shields.io/badge/Git-101827?style=for-the-badge&logo=git&logoColor=67e8f9)
 
 </div>
 
@@ -72,49 +85,49 @@ Actualmente estoy fortaleciendo mis conocimientos en desarrollo web, APIs, bases
 
 ## Proyectos destacados
 
-| Proyecto | Enfoque | Tecnologías |
+| Proyecto | Que resuelve | Tecnologias |
 | --- | --- | --- |
-| [Portfolio personal](https://portafolio-personal-edwin-sanchez.vercel.app) | Sitio profesional bilingüe, responsive, con API de GitHub, certificados y galería de proyectos. | HTML, CSS, JavaScript, Vercel |
-| [VialServi](https://github.com/AndresSanchez12323/vial_servi) | Aplicación orientada a gestión de seguros viales. | Web, lógica de negocio |
-| [Pro Connect](https://github.com/AndresSanchez12323/Pro-Connect) | Experiencia digital para conectar usuarios y organizar interacción. | Frontend, backend |
-| [Pokemon API](https://github.com/AndresSanchez12323/Pokemon-API) | Consumo y presentación de datos desde una API externa. | JavaScript, API |
-| [Red social poliglota](https://github.com/AndresSanchez12323/Poliglota-Red-Social-Postgres-SQL-Neo4j) | Exploración de persistencia poliglota con base relacional y grafo. | PostgreSQL, Neo4j |
+| [Portfolio personal](https://portafolio-personal-edwin-sanchez.vercel.app) | Presentacion profesional bilingue con GitHub API, certificados, galeria y responsive completo. | HTML, CSS, JavaScript, Vercel |
+| [VialServi](https://github.com/AndresSanchez12323/vial_servi) | Aplicacion orientada a gestion de seguros viales. | Web, logica de negocio |
+| [Pro Connect](https://github.com/AndresSanchez12323/Pro-Connect) | Experiencia digital para conectar usuarios y organizar interaccion. | Frontend, backend |
+| [Pokemon API](https://github.com/AndresSanchez12323/Pokemon-API) | Consumo y visualizacion de datos desde una API externa. | JavaScript, API |
+| [Red social poliglota](https://github.com/AndresSanchez12323/Poliglota-Red-Social-Postgres-SQL-Neo4j) | Exploracion de persistencia poliglota usando base relacional y grafo. | PostgreSQL, Neo4j |
 
 ---
 
 ## Ruta de aprendizaje
 
 ```txt
-2026  mejorar arquitectura, documentación y despliegues
-2025  proyectos educativos, bases de datos, compresión y Assembly
-2024  primera aplicación completa orientada a seguros viales
-2023  lógica, Java, Python, scripting y fundamentos
-2022  inicio formal del camino en desarrollo de software
+2026  arquitectura, documentacion, despliegues y calidad visual
+2025  compresion, bases de datos poliglotas, Assembly y Python
+2024  primera aplicacion completa: VialServi
+2023  logica, Java, Python, scripting y fundamentos
+2022  inicio formal en desarrollo de software
 ```
 
 ---
 
-## Actividad en GitHub
+## Actividad
 
 <div align="center">
 
-<img height="165" alt="GitHub stats" src="https://github-readme-stats.vercel.app/api?username=AndresSanchez12323&show_icons=true&theme=tokyonight&hide_border=true&title_color=67e8f9&icon_color=67e8f9">
-<img height="165" alt="Top languages" src="https://github-readme-stats.vercel.app/api/top-langs/?username=AndresSanchez12323&layout=compact&theme=tokyonight&hide_border=true&title_color=67e8f9">
+<img height="168" alt="GitHub stats" src="https://github-readme-stats.vercel.app/api?username=AndresSanchez12323&show_icons=true&theme=tokyonight&hide_border=true&title_color=67e8f9&icon_color=67e8f9&text_color=e5eefb&bg_color=07111f">
+<img height="168" alt="Top languages" src="https://github-readme-stats.vercel.app/api/top-langs/?username=AndresSanchez12323&layout=compact&theme=tokyonight&hide_border=true&title_color=67e8f9&text_color=e5eefb&bg_color=07111f">
 
 <br>
 
-<img alt="GitHub streak" src="https://streak-stats.demolab.com?user=AndresSanchez12323&theme=tokyonight&hide_border=true&ring=67e8f9&fire=67e8f9&currStreakLabel=67e8f9">
+<img alt="GitHub streak" src="https://streak-stats.demolab.com?user=AndresSanchez12323&theme=tokyonight&hide_border=true&background=07111F&ring=67e8f9&fire=67e8f9&currStreakLabel=67e8f9">
 
 </div>
 
 ---
 
-## Ahora mismo
+## Ahora mismo estoy
 
-- Mejorando mi portfolio y presencia profesional en GitHub.
-- Construyendo proyectos con más orden, documentación y buenas prácticas.
-- Practicando APIs, bases de datos, despliegues y automatización.
-- Reforzando fundamentos de sistemas, algoritmos y programación de bajo nivel.
+- Mejorando mi portfolio y mi presentacion profesional.
+- Construyendo proyectos con estructura, documentacion y buenas practicas.
+- Practicando APIs, bases de datos, despliegues y automatizacion.
+- Reforzando fundamentos de sistemas, algoritmos y programacion de bajo nivel.
 
 ---
 
@@ -130,6 +143,6 @@ Actualmente estoy fortaleciendo mis conocimientos en desarrollo web, APIs, bases
 
 <br><br>
 
-<sub>Construyendo, aprendiendo y mejorando un proyecto a la vez.</sub>
+<sub>Codigo claro. Soluciones utiles. Mejoras constantes.</sub>
 
 </div>
